@@ -1,0 +1,23 @@
+<h1>Request #{{ reqId }}</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>#ID</th>
+      <th>To</th>
+      <th>Sent?</th>
+      <th>Opened?</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {{#jobs}}
+    <tr>
+      <td>{{email.id}}</td>
+      <td>{{customer.email}}</td>
+      <th>{{isSent}}</th>
+      <th>{{isOpened}}</th>
+    </tr>
+    {{/jobs}}
+  </tbody>
+</table>

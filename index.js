@@ -2,6 +2,7 @@
 
 
 require('dotenv').config({silent: true});
+require('./lib/hook');
 const server = require('./lib/server');
 
 server.listen(process.env.PORT);
