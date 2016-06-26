@@ -14,11 +14,14 @@
     "dotenv": "2.0.0",
     "emailjs": "1.0.5",
     "finalhandler": "0.5.0",
+    "from2": "2.1.1",
     "isemail": "2.2.0",
     "level": "1.4.0",
     "level-sublevel": "6.5.4",
     "mustache": "2.2.1",
     "router": "1.1.4",
-    "shortid": "2.2.6"
+    "shortid": "2.2.6",
+    "split2": "2.1.0",
+    "through2": "2.0.1"
   }
 }

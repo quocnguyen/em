@@ -11,20 +11,36 @@
     width: 500px;
     margin-bottom: 20px;
   }
+  .example {
+    font-size: 10px;
+    color: #777;
+  }
 </style>
 <form method="POST">
 
   <div>
     <label>Customers</label>
-    <textarea name="emails" cols="100" rows="20"></textarea>
+    <pre class="example">
+      Example:
+      name;email;age
+      quoc;quocnguyen@clgt.vn;29
+    </pre>
+    <textarea name="customers" cols="100" rows="20"></textarea>
   </div>
 
   <div>
     <label>subject</label>
+    <pre class="example">
+      Example:
+      Hello &#123;&#123; name &#125;&#125;, you have a new mail
+    </pre>
     <input type="text" name="subject"></input>
   </div>
   <div>
     <label>body</label>
+    <pre class="example">
+      Support  &#123;&#123; placeholder &#125;&#125; and also all html tab allowed for email
+    </pre>
     <textarea name="body" cols="100" rows="20"></textarea>
   </div>
 
