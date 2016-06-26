@@ -1,0 +1,8 @@
+uptime:
+  image: quocnguyen/em
+  mem_limit: 30m
+  env_file: .env
+  expose:
+    - "6969"
+  volumes:
+    - ./db:/usr/src/app/db:rw
