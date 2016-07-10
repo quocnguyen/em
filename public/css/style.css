@@ -1,98 +1,104 @@
 * {
-    margin: 0;
-  }
-  body {
-    font-family: tahoma;
-    width: 100%;
-  }
-  .img-responsive {
-    width: 100%;
-  }
-  .container {
-    margin: 30px auto;
-    width: 60%;
-  }
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #4b4b4b;
-  }
-  .form-control {
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 40px;
-    border-radius: 4px;
-    color: #707479;
-    background: #fff;
-    border: 1px solid #E3E4E6;
-    padding: 9px 15px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-  }
-  .form-control:focus,
-  .form-control:active,
-  .form-control:hover {
-    outline: 0;
-    border-color: #3CC76A;
-  }
-  .example {
-    font-size: 10px;
-    color: #777;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 2px dashed #f1f1f1;
-  }
-  .btn-primary {
-    width: 100%;
-    border-radius: 4px;
-    background-color: #3CC76A;
-    border: 0;
-    color: #FFF;
-    display: block;
-    line-height: 16px;
-    transition: all .2s;
-    font-size: 16px;
-    padding: 15px 25px 15px;
-    white-space: nowrap;
-    text-transform: uppercase;
-  }
-  .btn-primary:hover {
-    cursor: pointer;
-    background-color: #50CD79;
-    outline: 0;
-  }
-  footer {
-    background: #FAFAFB;
-    padding: 60px 0;
-    text-align: center;
-    margin-top: 60px;
-  }
-  footer a {
-    text-decoration: none;
-    position: relative;
-  }
-  .footer-container a img {
-    margin: 0 10px;
-    transform: scale(1.05) translateY(0);
-    transition: transform 300ms;
-    padding-bottom: 10px;
-  }
-  .footer-container a:after {
-    content: "";
-    height: 1px;
-    width: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 15px;
-    border-bottom: 1px solid #ddd;
-  }
-  .footer-container a:hover img {
-      transform: scale(1) translateY(-5px);
-  }
-  .copy {
-    font-size: 13px;
-    color: #ddd;
-    margin-top: 30px;
-  }
+  margin: 0;
+}
+body {
+  font-family: tahoma;
+  width: 100%;
+}
+.img-responsive {
+  width: 100%;
+}
+.container {
+  margin: 30px auto;
+  width: 60%;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #4b4b4b;
+}
+.form-control {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  color: #707479;
+  background: #fff;
+  border: 1px solid #E3E4E6;
+  padding: 9px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.form-control:focus,
+.form-control:active,
+.form-control:hover {
+  outline: 0;
+  border-color: #3CC76A;
+}
+.example {
+  font-size: 10px;
+  color: #777;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px dashed #f1f1f1;
+}
+.btn-primary {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #3CC76A;
+  border: 0;
+  color: #FFF;
+  display: block;
+  line-height: 16px;
+  transition: all .2s;
+  font-size: 16px;
+  padding: 15px 25px 15px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #50CD79;
+  outline: 0;
+}
+footer {
+  background: #FAFAFB;
+  padding: 60px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+footer a {
+  text-decoration: none;
+  position: relative;
+}
+.footer-container a img {
+  margin: 0 10px;
+  transform: scale(1.05) translateY(0);
+  transition: transform 300ms;
+  padding-bottom: 10px;
+}
+.footer-container a:after {
+  content: "";
+  height: 1px;
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.footer-container a:hover img {
+    transform: scale(1) translateY(-5px);
+}
+.copy {
+  font-size: 13px;
+  color: #ddd;
+  margin-top: 30px;
+}
+.form-default {
+  margin-top: 10%;
+}
+.pull-right {
+  float: right;
+}
