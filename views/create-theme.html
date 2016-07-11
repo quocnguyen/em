@@ -1,0 +1,102 @@
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<body>
+  <a class="gotop" href="#"><i class="fa fa-chevron-up"></i></a>
+  <div class="header">
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <a href="" class="navbar-brand">
+          Shinpuru
+        </a>
+        <ul class="nav navbar-nav pull-right">
+          <li class="dropdown">
+            <a href="#" class="avatar dropdown-toggle" data-toggle="dropdown">
+              <img src="http://placehold.it/16x16/ddd" alt=""> John doe <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Setting</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-cog"></i> Setting</a></li>
+          <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /navbar-inverse -->
+  </div>
+  <!-- /header -->
+
+  <div class="container-fluid main">
+    <div class="row">
+      <div class="col-xs-2 sidebar">
+        <div class="nav nav-list" id="menu-list">
+          <li>
+            <a class="ufo" href="dashboard"><i class="fa fa-home"></i>Dashboard</a>
+          </li>
+          <li>
+            <a class="brown" href="create-list-user"><i class="fa fa-users"></i>Create List User</a>
+          </li>
+          <!-- <li>
+            <a class="sun" href="#"><i class="fa fa-shopping-cart"></i>Orders</a>
+          </li> -->
+          <li>
+            <a class="daylight active" href="create-theme"><i class="fa fa-pencil"></i>Create Theme</a>
+          </li>
+          <li>
+            <a class="red" href="setting-sent-mail"><i class="fa fa-cog"></i>Setting Sent Mail</a>
+          </li>
+        </div>
+      </div>
+      <!-- /sidebar -->
+
+      <div class="col-xs-10 body-content">
+        <div class="row">
+          <div class="page-header col-sm-12">
+            <h1>Create Theme</h1>
+          </div>
+        </div>
+        <!-- breadcrumb -->
+        <div class="row">
+          <ol class="breadcrumb">
+            <li><a href="dashboard">Dashboard</a></li>
+            <li><a href="list-theme">List Theme</a></li>
+            <li class="active">Create Theme</li>
+          </ol>
+        </div>
+        <!-- /breadcrumb -->
+        <div class="row">
+          <div class="col-xs-8">
+            <div class="alert alert-success" role="alert">
+              <strong>Well done!</strong> You successfully create theme. <a href="list-theme">Go back list theme?</a>
+            </div>
+            <form method="POST">
+              <div class="form-group">
+                <label>Name theme</label>
+                <input class="form-control input-lg" type="text" name="from"></input>
+              </div>
+              <div class="form-group">
+                <label>Body</label>
+
+<pre class="example">
+  Support  &#123;&#123; placeholder &#125;&#125; and also all html tab allowed for email
+</pre>
+                <textarea class="form-control" name="body" rows="16"></textarea>
+              </div>
+
+              <button class="btn-primary" type="submit">Create Theme</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /body-content -->
+    </div>
+  </div>
+  <!-- /end main-body container-fluid -->
