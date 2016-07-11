@@ -33,6 +33,7 @@ label {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+  box-shadow: none;
 }
 .form-control:focus,
 .form-control:active,
@@ -77,11 +78,14 @@ footer a {
   text-decoration: none;
   position: relative;
 }
+.footer-container {
+  margin-top: 30px;
+}
 .footer-container a img {
   margin: 0 10px;
   transform: scale(1.05) translateY(0);
   transition: transform 300ms;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 .footer-container a:after {
   content: "";
@@ -98,7 +102,6 @@ footer a {
 .copy {
   font-size: 13px;
   color: #ddd;
-  margin-top: 30px;
 }
 .form-default {
   margin-top: 10%;
@@ -113,20 +116,6 @@ a {
 a:hover {
   text-decoration:none;
   color:#0093a2;
-}
-textarea, input[type="text"],
-input[type="password"], input[type="datetime"],
-input[type="datetime-local"], input[type="date"],
-input[type="month"], input[type="time"],
-input[type="week"], input[type="number"],
-input[type="email"], input[type="url"],
-input[type="search"], input[type="tel"],
-input[type="color"], .uneditable-input {
-  /*border-color: #d9d9d9;*/
-  /*background: #ececec;*/
-  border: 1px solid #E3E4E6;
-  padding: 18px 15px;
-  box-shadow: none;
 }
 body > .container-fluid,
 body > .container-fluid > .row-fluid {
@@ -287,14 +276,6 @@ body > .container-fluid > .row-fluid {
 /************************************************/
 /********************* /.body-content **********************/
 /************************************************/
-
-
-.container {
-  font-family: Arial;
-  width: 600px;
-  margin: 0 auto;
-  font-size: 13px; }
-
 /*CSS ALL*/
 .checkbox,
 .radio {
@@ -367,4 +348,19 @@ body > .container-fluid > .row-fluid {
     overflow-x: hidden;
     width: 970px;
   }
+}
+.about {
+  padding: 80px 0;
+  text-align: center;
+}
+.price,
+.number-mail {
+  font-size: 50px;
+  color: #CC333F;
+}
+.about .btn {
+  margin-top: 20px;
+}
+.mg-bt-30 {
+  margin-bottom: 30px;
 }
