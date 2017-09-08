@@ -1,0 +1,20 @@
+[
+  {
+    "host": "smtp.sendgrid.net",
+    "user": "apikey",
+    "password": "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",
+    "port": 587
+  },
+  {
+    "host": "smtp.elasticemail.com",
+    "user": "waterdarlin@gmail.com",
+    "password": "f06821be-42d2-400f-8e86-76594a55bfc1",
+    "port": 2525
+  },
+  {
+    "host": "smtp-pulse.com",
+    "user": "waterdarlin@gmail.com",
+    "password": "6H9Xkjqd9Y9a3rZ",
+    "port": 2525
+  }
+]
